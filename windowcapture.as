@@ -16,10 +16,11 @@ set windowWidth to windowWidth * 2
 set windowHeight to windowHeight * 2
 
 -- 全画面キャプチャを撮る
-do shell script "screencapture -x /tmp/___screen.png"
+do shell script "/usr/sbin/screencapture -x /tmp/___screen.png"
 
 -- 最前面ウィンドウの部分を切り取る
-set cropCommand to "convert /tmp/___screen.png -crop " & windowWidth & "x" & windowHeight & "+" & xPos & "+" & yPos & " /tmp/___gyazo.png"
+-- convertのパス指定が大事!
+set cropCommand to "/usr/local/bin/convert /tmp/___screen.png -crop " & windowWidth & "x" & windowHeight & "+" & xPos & "+" & yPos & " /tmp/___gyazo.png"
 do shell script cropCommand
 
 -- Gyazoにアップする
