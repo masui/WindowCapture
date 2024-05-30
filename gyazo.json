@@ -8,10 +8,10 @@
                 "key_code": "fn"
             },
             "to_if_alone": [{
-                "shell_command": "open /Applications/Gyazo.app;"
+                "shell_command": "/usr/bin/osascript /Users/masui/WindowCapture/windowcapture.as"
             }],
             "to_if_held_down": [{
-                "shell_command": "/usr/bin/osascript /Users/masui/WindowCapture/windowcapture.as"
+                "shell_command": "open /Applications/Gyazo.app;"
             }]
 	}]
     }]
