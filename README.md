@@ -6,7 +6,7 @@
   </li>
   <li>長押ししたときは普通に領域選択してGyazoる</li>
   <li>AppleScriptとKarabiner-elementsで実現する</li>
-  <li>screepcaptureコマンドでは最前面のウィンドウを取得できないので全画面キャプチャからconvertコマンドで切り出す</li>
+  <li>screepcaptureコマンドでは最前面のウィンドウを自動取得できないので全画面キャプチャからconvertコマンドで切り出す</li>
   <li><code>gyazo.json</code>は<code>~/.config/karabiner/assets/complex_modifications/gyazo.json</code>に置く</li>
   <li><code>trial</code>は実験コード</li>
   <li>convertコマンドのパス(<code>/usr/local/bin</code>)を指定してなかったためハマった
