@@ -51,3 +51,4 @@ imagemagickを使えませんか
 
 [![alt設定](http://img.youtube.com/vi/AaKi9ALE3wo/0.jpg)](https://www.youtube.com/watch?v=AaKi9ALE3wo)
 
+<video src="https://www.youtube.com/embed/AaKi9ALE3wo?si=iHffPPZP8Z2CC7lJ">
