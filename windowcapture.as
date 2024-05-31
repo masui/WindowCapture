@@ -1,4 +1,4 @@
--- 最前面のウィンドウの座標とサイズを取得してGyazoにアップするAppleScript
+-- 最前面のウィンドウを取得してGyazoにアップするAppleScript
 
 -- 最前面のウィンドウの座標とサイズを取得
 tell application "System Events"
