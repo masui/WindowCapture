@@ -1,3 +1,5 @@
+-- 最前面のウィンドウの座標とサイズを取得してGyazoにアップするAppleScript
+
 -- 最前面のウィンドウの座標とサイズを取得
 tell application "System Events"
     tell (first application process whose frontmost is true)
