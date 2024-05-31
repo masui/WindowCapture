@@ -1,6 +1,10 @@
 <h1>ショートカットキーを使って最前面のウィンドウをGyazoるための試み</h1>
 
 <ul>
+  <li>Gyazoキーを押したとき最前面のウィンドウをGyazoるようにする<br>
+    <img src="https://i.gyazo.com/5a432cf5753e954ceb0069d0dbb5cde4.jpg" width=200px>
+  </li>
+  <li>長押ししたときは普通に領域選択してGyazoる</li>
   <li>AppleScriptとKarabiner-elementsで実現する</li>
   <li>screepcaptureコマンドでは最前面のウィンドウを取得できないので全画面キャプチャからconvertコマンドで切り出す</li>
   <li><code>gyazo.json</code>は<code>~/.config/karabiner/assets/complex_modifications/gyazo.json</code>に置く</li>
