@@ -1,4 +1,4 @@
--- 最前面のウィンドウを取得してGyazoにアップするAppleScript
+-- 最前面のウィンドウをキャプチャしてGyazoにアップするAppleScript
 
 -- 最前面のウィンドウの座標とサイズを取得
 tell application "System Events"
@@ -21,7 +21,7 @@ set windowHeight to windowHeight * 2
 do shell script "/usr/sbin/screencapture -x /tmp/___screen.png"
 
 -- 最前面ウィンドウの部分を切り取る
--- convertのパス指定が大事!
+-- convert(ImageMagick)のパス指定が必要
 set cropCommand to "/usr/local/bin/convert /tmp/___screen.png -crop " & windowWidth & "x" & windowHeight & "+" & xPos & "+" & yPos & " /tmp/___gyazo.png"
 do shell script cropCommand
 
